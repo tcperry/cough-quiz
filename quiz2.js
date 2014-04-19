@@ -64,7 +64,7 @@ function getAnswer() {
 		//$('#sm').addClass('hidden');
 		questionNum = 0;
 		$("#question-holder").append('<h5>' + explanations[0].title + '</h5><img class="grr" src="nosmoke.png" /><p>' + explanations[0].para + '</p>').fadeIn('fast');
-		$("#question-holder").append("<br/><input type='submit' value='Start Over' onclick = 'startOver();' class='fancy'/>").fadeIn('fast');
+		$("#question-holder").append("<br/><input type='submit' value='Start Over' onclick = 'showQuestion(0);' class='fancy'/>").fadeIn('fast');
 		//console.log('questionNum',questionNum);
 		
 		}
